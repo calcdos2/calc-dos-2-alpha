@@ -1,0 +1,56 @@
+ul>li {
+	display:block;
+	margin-right: 10px;
+}
+ul{
+	padding-left: 0;
+
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+
+.counterWindow{
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	margin-right: 15px;
+}
+
+.setCenter {
+	text-align: center;
+}
+
+button {
+	font-size: xx-small;
+}
+
+.listAlign {
+	display: inline-block;
+	width: 10em;
+	height: 1.2em;
+}
+
+.setListHead {
+	color: red;
+	text-align: center;
+
+}
+
+.setLeft {
+	text-align: left;
+}
+
+.setGreen{
+	color: white;
+	background-color: green;
+}
+
+.setRed{
+	color: white;
+	background-color: red;
+}
+
