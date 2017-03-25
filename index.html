@@ -2,147 +2,151 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>DOS2 charater calculator</title>
+	<title>DOS2 character calculator</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
-<body>
+<body class="mainBg">
 
 <div>
-	<h1 class="setCenter">Divinity original sin 2 Charater Calculator</h1>
+	<h1 class="setCenter">Divinity original sin 2 Character Calculator</h1>
 </div>
 
-
-<div class="floatLeft">
-	<h3 class="setCenter">Attributes</h3>
-	<div class="floatLeft">
-
-		<div >
-			<ul>
-				<li> <span class="listAlign ">Strength</span> <span class=" counterWindow attribute TotalAttr" id="counterStr">10</span><button id="strBtnPlus">+</button> <button id="strBtnMinus">-</button> </li>
-				<li> <span class="listAlign ">Finesse</span> <span class=" counterWindow attribute TotalAttr" id="counterFin">10</span><button id="finBtnPlus">+</button> <button id="finBtnMinus">-</button></li>
-				<li> <span class="listAlign ">Intelligence</span> <span class=" counterWindow attribute TotalAttr" id="counterInt">10</span><button id="intBtnPlus">+</button> <button id="intBtnMinus">-</button></li>
-				<li> <span class="listAlign ">Constitution</span> <span class=" counterWindow attribute TotalAttr" id="counterCon">10</span><button id="conBtnPlus">+</button> <button id="conBtnMinus">-</button></li>
-				<li> <span class="listAlign ">Memory</span> <span class=" counterWindow attribute TotalAttr" id="counterMem">10</span><button id="memBtnPlus">+</button> <button id="memBtnMinus">-</button></li>
-				<li> <span class="listAlign ">Wits</span> <span><span class=" counterWindow attribute TotalAttr" id="counterWit">10</span><button id="witBtnPlus">+</button> <button id="witBtnMinus">-</button></li>
-				<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow attribute" id="counterTotalAttr">0</span> </li>
-				
-			</ul>
-		</div>
-	</div>
-	
-</div>
-
-<div class="floatLeft">
-	<h3 class="setCenter">Combat Skills</h3>
-	<div class="floatLeft">
-
+<div class="container">
+	<div class="row ">
 		<div>
-			<ul>
-				<li> <span class="listAlign setListHead">Weapons</span> <span class="counterWindow" id="counterTotalWep">0</span>  </li>
-				<li> <span class="listAlign">Dual wield</span> <span class="counterWindow TotalWep" id="counterDw">0</span><button id="dwBtnPlus">+</button> <button id="dwBtnMinus">-</button> </li>
-				<li> <span class="listAlign">Ranged</span> <span class="counterWindow TotalWep" id="counterRan">0</span><button id="ranBtnPlus">+</button> <button id="ranBtnMinus">-</button></li>
-				<li> <span class="listAlign">Single hand</span> <span class="counterWindow TotalWep" id="counterSh">0</span><button id="shBtnPlus">+</button> <button id="shBtnMinus">-</button></li>
-				<li> <span class="listAlign">Two hand</span> <span class="counterWindow TotalWep" id="counterTh">0</span><button id="thBtnPlus">+</button> <button id="thBtnMinus">-</button></li>
+		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+			<h3 class="setCenter">Attributes</h3>
+			<div class="floatLeft">
+
+				<div >
+					<ul>
+						<li> <span class="listAlign ">Strength</span> <span class=" counterWindow attribute TotalAttr" id="counterStr">10</span><button id="strBtnPlus">+</button> <button id="strBtnMinus">-</button> </li>
+						<li> <span class="listAlign ">Finesse</span> <span class=" counterWindow attribute TotalAttr" id="counterFin">10</span><button id="finBtnPlus">+</button> <button id="finBtnMinus">-</button></li>
+						<li> <span class="listAlign ">Intelligence</span> <span class=" counterWindow attribute TotalAttr" id="counterInt">10</span><button id="intBtnPlus">+</button> <button id="intBtnMinus">-</button></li>
+						<li> <span class="listAlign ">Constitution</span> <span class=" counterWindow attribute TotalAttr" id="counterCon">10</span><button id="conBtnPlus">+</button> <button id="conBtnMinus">-</button></li>
+						<li> <span class="listAlign ">Memory</span> <span class=" counterWindow attribute TotalAttr" id="counterMem">10</span><button id="memBtnPlus">+</button> <button id="memBtnMinus">-</button></li>
+						<li> <span class="listAlign ">Wits</span> <span><span class=" counterWindow attribute TotalAttr" id="counterWit">10</span><button id="witBtnPlus">+</button> <button id="witBtnMinus">-</button></li>
+						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow attribute" id="counterTotalAttr">0</span> </li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+			<h3 class="setCenter">Combat Skills</h3>
+			<div class="floatLeft">
+
+				<div>
+					<ul>
+						<li> <span class="listAlign setListHead">Weapons</span> <span class="counterWindow" id="counterTotalWep">0</span>  </li>
+						<li> <span class="listAlign">Dual wield</span> <span class="counterWindow TotalWep" id="counterDw">0</span><button id="dwBtnPlus">+</button> <button id="dwBtnMinus">-</button> </li>
+						<li> <span class="listAlign">Ranged</span> <span class="counterWindow TotalWep" id="counterRan">0</span><button id="ranBtnPlus">+</button> <button id="ranBtnMinus">-</button></li>
+						<li> <span class="listAlign">Single hand</span> <span class="counterWindow TotalWep" id="counterSh">0</span><button id="shBtnPlus">+</button> <button id="shBtnMinus">-</button></li>
+						<li> <span class="listAlign">Two hand</span> <span class="counterWindow TotalWep" id="counterTh">0</span><button id="thBtnPlus">+</button> <button id="thBtnMinus">-</button></li>
 
 
-				<li> <span class="listAlign setListHead">Defence</span> <span class="counterWindow" id="counterTotalDef">0</span>  </li>
-				<li> <span class="listAlign">Leadership</span> <span class="counterWindow TotalDef" id="counterLead">0</span><button id="leadBtnPlus">+</button> <button id="leadBtnMinus">-</button></li>
-				<li> <span class="listAlign">Perseverance</span> <span><span class="counterWindow TotalDef" id="counterPers">0</span><button id="persBtnPlus">+</button> <button id="persBtnMinus">-</button></li>
-				<li> <span class="listAlign">Pain reflection</span> <span><span class="counterWindow TotalDef" id="counterPref">0</span><button id="prefBtnPlus">+</button> <button id="prefBtnMinus">-</button></li>
+						<li> <span class="listAlign setListHead">Defence</span> <span class="counterWindow" id="counterTotalDef">0</span>  </li>
+						<li> <span class="listAlign">Leadership</span> <span class="counterWindow TotalDef" id="counterLead">0</span><button id="leadBtnPlus">+</button> <button id="leadBtnMinus">-</button></li>
+						<li> <span class="listAlign">Perseverance</span> <span><span class="counterWindow TotalDef" id="counterPers">0</span><button id="persBtnPlus">+</button> <button id="persBtnMinus">-</button></li>
+						<li> <span class="listAlign">Pain reflection</span> <span><span class="counterWindow TotalDef" id="counterPref">0</span><button id="prefBtnPlus">+</button> <button id="prefBtnMinus">-</button></li>
 
-				<li> <span class="listAlign setListHead">Skills</span> <span class="counterWindow" id="counterTotalSkills">0</span>  </li>
-				<li> <span class="listAlign">Aerotheurge</span> <span><span class="counterWindow TotalSkills" id="counterAero">0</span><button id="aeroBtnPlus">+</button> <button id="aeroBtnMinus">-</button></li>
-				<li> <span class="listAlign">Geomancer</span> <span><span class="counterWindow TotalSkills" id="counterGeo">0</span><button id="geoBtnPlus">+</button> <button id="geoBtnMinus">-</button></li>
-				<li> <span class="listAlign">Huntsman</span> <span><span class="counterWindow TotalSkills" id="counterHunt">0</span><button id="huntBtnPlus">+</button> <button id="huntBtnMinus">-</button></li>
-				<li> <span class="listAlign">Hydrosophist</span> <span><span class="counterWindow TotalSkills" id="counterHydro">0</span><button id="hydroBtnPlus">+</button> <button id="hydroBtnMinus">-</button></li>
-				<li> <span class="listAlign">Necromancer</span> <span><span class="counterWindow TotalSkills" id="counterNecr">0</span><button id="necrBtnPlus">+</button> <button id="necrBtnMinus">-</button></li>
-				<li> <span class="listAlign">Pyrokinetic</span> <span><span class="counterWindow TotalSkills" id="counterPyro">0</span><button id="pyroBtnPlus">+</button> <button id="pyroBtnMinus">-</button></li>
-				<li> <span class="listAlign">Scoundrel</span> <span><span class="counterWindow TotalSkills" id="counterSco">0</span><button id="scoBtnPlus">+</button> <button id="scoBtnMinus">-</button></li>
-				<li> <span class="listAlign">Warfare</span> <span><span class="counterWindow TotalSkills" id="counterWar">0</span><button id="warBtnPlus">+</button> <button id="warBtnMinus">-</button></li>
+						<li> <span class="listAlign setListHead">Skills</span> <span class="counterWindow" id="counterTotalSkills">0</span>  </li>
+						<li> <span class="listAlign">Aerotheurge</span> <span><span class="counterWindow TotalSkills" id="counterAero">0</span><button id="aeroBtnPlus">+</button> <button id="aeroBtnMinus">-</button></li>
+						<li> <span class="listAlign">Geomancer</span> <span><span class="counterWindow TotalSkills" id="counterGeo">0</span><button id="geoBtnPlus">+</button> <button id="geoBtnMinus">-</button></li>
+						<li> <span class="listAlign">Huntsman</span> <span><span class="counterWindow TotalSkills" id="counterHunt">0</span><button id="huntBtnPlus">+</button> <button id="huntBtnMinus">-</button></li>
+						<li> <span class="listAlign">Hydrosophist</span> <span><span class="counterWindow TotalSkills" id="counterHydro">0</span><button id="hydroBtnPlus">+</button> <button id="hydroBtnMinus">-</button></li>
+						<li> <span class="listAlign">Necromancer</span> <span><span class="counterWindow TotalSkills" id="counterNecr">0</span><button id="necrBtnPlus">+</button> <button id="necrBtnMinus">-</button></li>
+						<li> <span class="listAlign">Pyrokinetic</span> <span><span class="counterWindow TotalSkills" id="counterPyro">0</span><button id="pyroBtnPlus">+</button> <button id="pyroBtnMinus">-</button></li>
+						<li> <span class="listAlign">Scoundrel</span> <span><span class="counterWindow TotalSkills" id="counterSco">0</span><button id="scoBtnPlus">+</button> <button id="scoBtnMinus">-</button></li>
+						<li> <span class="listAlign">Warfare</span> <span><span class="counterWindow TotalSkills" id="counterWar">0</span><button id="warBtnPlus">+</button> <button id="warBtnMinus">-</button></li>
 
-				<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCombatSkills">0</span> </li>
-				
-			</ul>
+						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCombatSkills">0</span> </li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+			<h3 class="setCenter">Civil Skills</h3>
+			<div class="floatLeft">
+
+				<div>
+					<ul>
+						<li> <span class="listAlign setListHead">Personality</span> <span class="counterWindow" id="counterTotalPers">0</span>  </li>
+						<li> <span class="listAlign">Bartering</span> <span class="counterWindow TotalPers" id="counterBart">0</span><button id="bartBtnPlus">+</button> <button id="bartBtnMinus">-</button> </li>
+						<li> <span class="listAlign">Lucky Charm</span> <span class="counterWindow TotalPers" id="counterLuck">0</span><button id="luckBtnPlus">+</button> <button id="luckBtnMinus">-</button></li>
+						<li> <span class="listAlign">Persuasion</span> <span class="counterWindow TotalPers" id="counterPersuasion">0</span><button id="persuasionBtnPlus">+</button> <button id="persuasionBtnMinus">-</button></li>
+
+
+						<li> <span class="listAlign setListHead">Craftsmanship</span> <span class="counterWindow" id="counterTotalCraft">0</span>  </li>
+						<li> <span class="listAlign">Loremaster</span> <span class="counterWindow TotalCraft" id="counterLore">0</span><button id="loreBtnPlus">+</button> <button id="loreBtnMinus">-</button></li>
+						<li> <span class="listAlign">Telekinesis</span> <span><span class="counterWindow TotalCraft" id="counterTele">0</span><button id="teleBtnPlus">+</button> <button id="teleBtnMinus">-</button></li>
+
+						<li> <span class="listAlign setListHead">Nasty deeds</span> <span class="counterWindow" id="counterTotalNasty">0</span>  </li>
+						<li> <span class="listAlign">Sneaking</span> <span><span class="counterWindow TotalNasty" id="counterSneak">0</span><button id="sneakBtnPlus">+</button> <button id="sneakBtnMinus">-</button></li>
+						<li> <span class="listAlign">Thievery</span> <span><span class="counterWindow TotalNasty" id="counterThievery">0</span><button id="thieveryBtnPlus">+</button> <button id="thieveryBtnMinus">-</button></li>
+
+						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCivilSkills">0</span> </li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="floatLeft col-md-2  col-lg-2 col-sm-6 columBg">
+			<h3 class="setCenter">Talents</h3>
+			<p class="setCenter">(click on talent to choose it)</p>
+			<div class="floatLeft">
+
+				<div>
+					<ul class="talentList">
+						<li> <span class="listAlign talent" id="allSkilledUpTalent">All Skilled Up</span>  </li>
+						<li> <span class="listAlign talent" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
+						<li> <span class="listAlign talent" id="backStabberTalent">Back-Stabber</span>  </li>
+						<li> <span class="listAlign talent" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
+						<li> <span class="listAlign talent" id="comebackKidTalent">Comeback Kid</span>  </li>
+						<li> <span class="listAlign talent incompatible iceKingTalent" id="demonTalent">Demon</span>  </li>
+						<li> <span class="listAlign talent" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
+						<li> <span class="listAlign talent" id="escapistTalent">Escapist</span>  </li>
+						<li> <span class="listAlign talent" id="farOutManTalent">Far out man</span> </li>
+						<li> <span class="listAlign talent" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
+						<li> <span class="listAlign talent incompatible oneManArmyTalent" id="glassCanonTalent">Glass canon</span>  </li>
+						<li> <span class="listAlign talent" id="guerillaTalent">Guerilla</span>  </li>
+						<li> <span class="listAlign talent" id="hotheadTalent">Hothead</span>  </li>
+						<li> <span class="listAlign talent incompatible demonTalent" id="iceKingTalent">Ice King</span>  </li>
+						<li> <span class="listAlign talent incompatible zombieTalent" id="leechTalent">Leech</span>  </li>
+						<li> <span class="listAlign talent" id="morningPersonTalent">Morning Person</span>  </li>
+						<li> <span class="listAlign talent" id="opportunistTalent">Opportunist</span>  </li>
+						<li> <span class="listAlign talent" id="parryMasterTalent">Parry Master</span>  </li>
+						<li> <span class="listAlign talent" id="petPalTalent">Pet Pal</span>  </li>
+						<li> <span class="listAlign talent" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
+						<li> <span class="listAlign talent" id="slingshotTalent">Slingshot</span>  </li>
+						<li> <span class="listAlign talent" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
+						<li> <span class="listAlign talent" id="walkItOffTalent">Walk It Off</span>  </li>
+						<li> <span class="listAlign talent" id="whatARushTalent">What A Rush</span>  </li>
+						<li> <span class="listAlign talent incompatible leechTalent" id="zombieTalent">Zombie</span>  </li>
+						<li> <span class="listAlign talent" id="mnemonicTalent">Mnemonic</span>  </li>
+						<li> <span class="listAlign talent" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
+						<li> <span class="listAlign talent" id="elementalRangerTalent">Elemental Ranger</span>  </li>
+						<li> <span class="listAlign talent incompatible glassCanonTalent" id="oneManArmyTalent">One Man Army</span>  </li>
+						<li> <span class="listAlign talent" id="thePawnTalent">The Pawn</span>  </li>
+						<li> <span class="listAlign talent" id="warlordTalent">Warlord</span>  </li>				
+					</ul>
+				</div>
+			</div>
+			
 		</div>
 	</div>
-	
 </div>
-
-<div class="floatLeft">
-	<h3 class="setCenter">Civil Skills</h3>
-	<div class="floatLeft">
-
-		<div>
-			<ul>
-				<li> <span class="listAlign setListHead">Personality</span> <span class="counterWindow" id="counterTotalPers">0</span>  </li>
-				<li> <span class="listAlign">Bartering</span> <span class="counterWindow TotalPers" id="counterBart">0</span><button id="bartBtnPlus">+</button> <button id="bartBtnMinus">-</button> </li>
-				<li> <span class="listAlign">Lucky Charm</span> <span class="counterWindow TotalPers" id="counterLuck">0</span><button id="luckBtnPlus">+</button> <button id="luckBtnMinus">-</button></li>
-				<li> <span class="listAlign">Persuasion</span> <span class="counterWindow TotalPers" id="counterPersuasion">0</span><button id="persuasionBtnPlus">+</button> <button id="persuasionBtnMinus">-</button></li>
-
-
-				<li> <span class="listAlign setListHead">Craftsmanship</span> <span class="counterWindow" id="counterTotalCraft">0</span>  </li>
-				<li> <span class="listAlign">Loremaster</span> <span class="counterWindow TotalCraft" id="counterLore">0</span><button id="loreBtnPlus">+</button> <button id="loreBtnMinus">-</button></li>
-				<li> <span class="listAlign">Telekinesis</span> <span><span class="counterWindow TotalCraft" id="counterTele">0</span><button id="teleBtnPlus">+</button> <button id="teleBtnMinus">-</button></li>
-
-				<li> <span class="listAlign setListHead">Nasty deeds</span> <span class="counterWindow" id="counterTotalNasty">0</span>  </li>
-				<li> <span class="listAlign">Sneaking</span> <span><span class="counterWindow TotalNasty" id="counterSneak">0</span><button id="sneakBtnPlus">+</button> <button id="sneakBtnMinus">-</button></li>
-				<li> <span class="listAlign">Thievery</span> <span><span class="counterWindow TotalNasty" id="counterThievery">0</span><button id="thieveryBtnPlus">+</button> <button id="thieveryBtnMinus">-</button></li>
-
-				<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCivilSkills">0</span> </li>
-				
-			</ul>
-		</div>
-	</div>
-	
-</div>
-
-<div class="floatLeft">
-	<h3 class="setCenter">Talents</h3>
-	<div class="floatLeft">
-
-		<div>
-			<ul>
-				<li> <span class="listAlign talent" id="allSkilledUpTalent">All Skilled Up</span>  </li>
-				<li> <span class="listAlign talent" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
-				<li> <span class="listAlign talent" id="backStabberTalent">Back-Stabber</span>  </li>
-				<li> <span class="listAlign talent" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
-				<li> <span class="listAlign talent" id="comebackKidTalent">Comeback Kid</span>  </li>
-				<li> <span class="listAlign talent incompatible iceKingTalent" id="demonTalent">Demon</span>  </li>
-				<li> <span class="listAlign talent" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
-				<li> <span class="listAlign talent" id="escapistTalent">Escapist</span>  </li>
-				<li> <span class="listAlign talent" id="farOutManTalent">Far out man</span> </li>
-				<li> <span class="listAlign talent" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
-				<li> <span class="listAlign talent incompatible oneManArmyTalent" id="glassCanonTalent">Glass canon</span>  </li>
-				<li> <span class="listAlign talent" id="guerillaTalent">Guerilla</span>  </li>
-				<li> <span class="listAlign talent" id="hotheadTalent">Hothead</span>  </li>
-				<li> <span class="listAlign talent incompatible demonTalent" id="iceKingTalent">Ice King</span>  </li>
-				<li> <span class="listAlign talent incompatible zombieTalent" id="leechTalent">Leech</span>  </li>
-				<li> <span class="listAlign talent" id="morningPersonTalent">Morning Person</span>  </li>
-				<li> <span class="listAlign talent" id="opportunistTalent">Opportunist</span>  </li>
-				<li> <span class="listAlign talent" id="parryMasterTalent">Parry Master</span>  </li>
-				<li> <span class="listAlign talent" id="petPalTalent">Pet Pal</span>  </li>
-				<li> <span class="listAlign talent" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
-				<li> <span class="listAlign talent" id="slingshotTalent">Slingshot</span>  </li>
-				<li> <span class="listAlign talent" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
-				<li> <span class="listAlign talent" id="walkItOffTalent">Walk It Off</span>  </li>
-				<li> <span class="listAlign talent" id="whatARushTalent">What A Rush</span>  </li>
-				<li> <span class="listAlign talent incompatible leechTalent" id="zombieTalent">Zombie</span>  </li>
-				<li> <span class="listAlign talent" id="mnemonicTalent">Mnemonic</span>  </li>
-				<li> <span class="listAlign talent" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
-				<li> <span class="listAlign talent" id="elementalRangerTalent">Elemental Ranger</span>  </li>
-				<li> <span class="listAlign talent incompatible glassCanonTalent" id="oneManArmyTalent">One Man Army</span>  </li>
-				<li> <span class="listAlign talent" id="thePawnTalent">The Pawn</span>  </li>
-				<li> <span class="listAlign talent" id="warlordTalent">Warlord</span>  </li>				
-			</ul>
-		</div>
-	</div>
-	
-</div>
-
-
 
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

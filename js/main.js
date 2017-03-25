@@ -137,7 +137,6 @@ function sumCombatSKills(){
 
 	if (sum != totalCombatSkills ){
 		($("#counterTotalCombatSkills").text(sum))
-
 	}
 		return
 }
@@ -152,7 +151,6 @@ function sumCivilSkills (){
 
 	if (sum != totalCivilSkills ){
 		($("#counterTotalCivilSkills").text(sum))
-
 	}
 		return
 }
@@ -160,17 +158,12 @@ function sumCivilSkills (){
 function toggleTalentsColor (elementId){
 	var talentId= "#"+elementId 
 	if ($(talentId).hasClass("talent")){
-		$(talentId).toggleClass("setGreen")
-
+		$(talentId).toggleClass("setActive")
 			classCheck(elementId, talentId)
 
 	}
-
-
 	return
 }
-
-
 
 
 function classCheck (elementId, talentId){
@@ -178,15 +171,13 @@ function classCheck (elementId, talentId){
 	if ($(talentId).hasClass("incompatible")){
 	var classList = classCheck.split(" ")
 	var i
-
 		for (i = 0 ; i<classList.length;i++){
 			if (classList[i].indexOf("Talent")>0){
 				var talentComplete =  "#"+classList[i]
-				$(talentComplete).toggleClass("setRed")
+				$(talentComplete).toggleClass("setIncompatible")
 			}
 		}
-
 	}
-
 	return
 }
+
