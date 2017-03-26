@@ -3,41 +3,26 @@ ul>li {
 	margin-right: 10px;
 }
 ul{
-	padding-left: 0;
-
-}
-.floatLeft{
-	float: left;
-}
-.floatRight{
-	float: right;
+	list-style-type: none;
 }
 
-.counterWindow{
-	display: inline-block;
-	width: 25px;
-	height: 20px;
-	margin-right: 15px;
+.totalCounter{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .setCenter {
 	text-align: center;
 }
 
-button {
-	font-size: xx-small;
-}
-
 .listAlign {
-	display: inline-block;
-	width: 10em;
-	height: 1.2em;
+
+	margin-right: 15px;
 }
 
 .setListHead {
 font-weight: bold;
 	text-align: center;
-
 }
 
 .setLeft {
@@ -47,28 +32,25 @@ font-weight: bold;
 .setActive{
 	color: #14820e;
 	font-weight: bold;
-/*	background-color: green;*/
-
 }
 
 .setIncompatible{
 	color: #a50000;
 	font-weight: bold;
-/*	background-color: red;*/
 }
 
 body {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .talentList{
-
     text-align: center;
 }
 
 .mainBg{
 	background-image: url(../imgs/mainbg.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .columBg{
 	background-color: #9dacb2;
@@ -76,3 +58,20 @@ margin-left: 5px;
 margin-right: 5px;
 
 }
+
+#resetAll{
+	font-size: large;
+}
+.setBold{
+	font-weight: bold;
+}
+.padNull{
+padding-left: 0;
+padding-right: 0;
+}
+
+.marginTopBot{
+	margin-top: 15px;
+	margin-bottom: 15;
+}
+

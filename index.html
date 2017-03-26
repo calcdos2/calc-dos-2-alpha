@@ -12,61 +12,61 @@
 <body class="mainBg">
 
 <div>
-	<h1 class="setCenter">Divinity original sin 2 Character Calculator</h1>
+	<h1 class="setCenter columBg">Divinity original sin 2 Character Calculator</h1>
 </div>
 
 <div class="container">
 	<div class="row ">
 		<div>
-		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+		<div class=" col-md-3 col-lg-3 col-sm-5 col-xs-5 columBg marginTopBot">
 			<h3 class="setCenter">Attributes</h3>
-			<div class="floatLeft">
+			<div>
 
 				<div >
-					<ul>
-						<li> <span class="listAlign ">Strength</span> <span class=" counterWindow attribute TotalAttr" id="counterStr">10</span><button id="strBtnPlus">+</button> <button id="strBtnMinus">-</button> </li>
-						<li> <span class="listAlign ">Finesse</span> <span class=" counterWindow attribute TotalAttr" id="counterFin">10</span><button id="finBtnPlus">+</button> <button id="finBtnMinus">-</button></li>
-						<li> <span class="listAlign ">Intelligence</span> <span class=" counterWindow attribute TotalAttr" id="counterInt">10</span><button id="intBtnPlus">+</button> <button id="intBtnMinus">-</button></li>
-						<li> <span class="listAlign ">Constitution</span> <span class=" counterWindow attribute TotalAttr" id="counterCon">10</span><button id="conBtnPlus">+</button> <button id="conBtnMinus">-</button></li>
-						<li> <span class="listAlign ">Memory</span> <span class=" counterWindow attribute TotalAttr" id="counterMem">10</span><button id="memBtnPlus">+</button> <button id="memBtnMinus">-</button></li>
-						<li> <span class="listAlign ">Wits</span> <span><span class=" counterWindow attribute TotalAttr" id="counterWit">10</span><button id="witBtnPlus">+</button> <button id="witBtnMinus">-</button></li>
-						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow attribute" id="counterTotalAttr">0</span> </li>
+					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Strength</span> <span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterStr">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnMinus">-</button> </li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Finesse</span> <span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterFin">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Intelligence</span> <span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterInt">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Constitution</span> <span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterCon">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Memory</span> <span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterMem">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Wits</span> <span><span class=" counterWindow attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterWit">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnMinus">-</button></li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class="counterWindow attribute skillsResetClass col-md-3 totalCounter setBold col-lg-3 col-sm-3 col-xs-3" id="counterTotalAttr">0</span> </li>
 						
 					</ul>
+					<button id="resetAll">Reset calculator</button>
 				</div>
 			</div>
 			
 		</div>
 
-		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+		<div class=" col-md-3 col-lg-3 col-sm-5 col-xs-5 columBg marginTopBot">
 			<h3 class="setCenter">Combat Skills</h3>
-			<div class="floatLeft">
+			<div>
 
 				<div>
-					<ul>
-						<li> <span class="listAlign setListHead">Weapons</span> <span class="counterWindow" id="counterTotalWep">0</span>  </li>
-						<li> <span class="listAlign">Dual wield</span> <span class="counterWindow TotalWep" id="counterDw">0</span><button id="dwBtnPlus">+</button> <button id="dwBtnMinus">-</button> </li>
-						<li> <span class="listAlign">Ranged</span> <span class="counterWindow TotalWep" id="counterRan">0</span><button id="ranBtnPlus">+</button> <button id="ranBtnMinus">-</button></li>
-						<li> <span class="listAlign">Single hand</span> <span class="counterWindow TotalWep" id="counterSh">0</span><button id="shBtnPlus">+</button> <button id="shBtnMinus">-</button></li>
-						<li> <span class="listAlign">Two hand</span> <span class="counterWindow TotalWep" id="counterTh">0</span><button id="thBtnPlus">+</button> <button id="thBtnMinus">-</button></li>
+					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Weapons</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalWep">0</span>  </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Dual wield</span> <span class="counterWindow TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterDw">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnMinus">-</button> </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Ranged</span> <span class="counterWindow TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterRan">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Single hand</span> <span class="counterWindow TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Two hand</span> <span class="counterWindow TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnMinus">-</button></li>
 
 
-						<li> <span class="listAlign setListHead">Defence</span> <span class="counterWindow" id="counterTotalDef">0</span>  </li>
-						<li> <span class="listAlign">Leadership</span> <span class="counterWindow TotalDef" id="counterLead">0</span><button id="leadBtnPlus">+</button> <button id="leadBtnMinus">-</button></li>
-						<li> <span class="listAlign">Perseverance</span> <span><span class="counterWindow TotalDef" id="counterPers">0</span><button id="persBtnPlus">+</button> <button id="persBtnMinus">-</button></li>
-						<li> <span class="listAlign">Pain reflection</span> <span><span class="counterWindow TotalDef" id="counterPref">0</span><button id="prefBtnPlus">+</button> <button id="prefBtnMinus">-</button></li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Defence</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalDef">0</span>  </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Leadership</span> <span class="counterWindow TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLead">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Perseverance</span> <span><span class="counterWindow TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPers">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Pain reflection</span> <span><span class="counterWindow TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPref">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnMinus">-</button></li>
 
-						<li> <span class="listAlign setListHead">Skills</span> <span class="counterWindow" id="counterTotalSkills">0</span>  </li>
-						<li> <span class="listAlign">Aerotheurge</span> <span><span class="counterWindow TotalSkills" id="counterAero">0</span><button id="aeroBtnPlus">+</button> <button id="aeroBtnMinus">-</button></li>
-						<li> <span class="listAlign">Geomancer</span> <span><span class="counterWindow TotalSkills" id="counterGeo">0</span><button id="geoBtnPlus">+</button> <button id="geoBtnMinus">-</button></li>
-						<li> <span class="listAlign">Huntsman</span> <span><span class="counterWindow TotalSkills" id="counterHunt">0</span><button id="huntBtnPlus">+</button> <button id="huntBtnMinus">-</button></li>
-						<li> <span class="listAlign">Hydrosophist</span> <span><span class="counterWindow TotalSkills" id="counterHydro">0</span><button id="hydroBtnPlus">+</button> <button id="hydroBtnMinus">-</button></li>
-						<li> <span class="listAlign">Necromancer</span> <span><span class="counterWindow TotalSkills" id="counterNecr">0</span><button id="necrBtnPlus">+</button> <button id="necrBtnMinus">-</button></li>
-						<li> <span class="listAlign">Pyrokinetic</span> <span><span class="counterWindow TotalSkills" id="counterPyro">0</span><button id="pyroBtnPlus">+</button> <button id="pyroBtnMinus">-</button></li>
-						<li> <span class="listAlign">Scoundrel</span> <span><span class="counterWindow TotalSkills" id="counterSco">0</span><button id="scoBtnPlus">+</button> <button id="scoBtnMinus">-</button></li>
-						<li> <span class="listAlign">Warfare</span> <span><span class="counterWindow TotalSkills" id="counterWar">0</span><button id="warBtnPlus">+</button> <button id="warBtnMinus">-</button></li>
-
-						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCombatSkills">0</span> </li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Skills</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalSkills">0</span>  </li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Aerotheurge</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterAero">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Geomancer</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterGeo">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Huntsman</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHunt">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Hydrosophist</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHydro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Necromancer</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterNecr">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Pyrokinetic</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPyro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Scoundrel</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSco">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Warfare</span> <span><span class="counterWindow TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterWar">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnMinus">-</button></li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCombatSkills">0</span> </li>
 						
 					</ul>
 				</div>
@@ -74,27 +74,27 @@
 			
 		</div>
 
-		<div class="floatLeft col-md-3 col-lg-3 col-sm-6 columBg">
+		<div class=" col-md-3 col-lg-3 col-sm-5 col-xs-5 columBg marginTopBot">
 			<h3 class="setCenter">Civil Skills</h3>
-			<div class="floatLeft">
+			<div>
 
 				<div>
-					<ul>
-						<li> <span class="listAlign setListHead">Personality</span> <span class="counterWindow" id="counterTotalPers">0</span>  </li>
-						<li> <span class="listAlign">Bartering</span> <span class="counterWindow TotalPers" id="counterBart">0</span><button id="bartBtnPlus">+</button> <button id="bartBtnMinus">-</button> </li>
-						<li> <span class="listAlign">Lucky Charm</span> <span class="counterWindow TotalPers" id="counterLuck">0</span><button id="luckBtnPlus">+</button> <button id="luckBtnMinus">-</button></li>
-						<li> <span class="listAlign">Persuasion</span> <span class="counterWindow TotalPers" id="counterPersuasion">0</span><button id="persuasionBtnPlus">+</button> <button id="persuasionBtnMinus">-</button></li>
+					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Personality</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalPers">0</span>  </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Bartering</span> <span class="counterWindow TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterBart">0</span><button class="col-md-2 col-lg-2  col-sm-2 col-xs-2" id="bartBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="bartBtnMinus">-</button> </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Lucky Charm</span> <span class="counterWindow TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLuck">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Persuasion</span> <span class="counterWindow TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPersuasion">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnMinus">-</button></li>
 
 
-						<li> <span class="listAlign setListHead">Craftsmanship</span> <span class="counterWindow" id="counterTotalCraft">0</span>  </li>
-						<li> <span class="listAlign">Loremaster</span> <span class="counterWindow TotalCraft" id="counterLore">0</span><button id="loreBtnPlus">+</button> <button id="loreBtnMinus">-</button></li>
-						<li> <span class="listAlign">Telekinesis</span> <span><span class="counterWindow TotalCraft" id="counterTele">0</span><button id="teleBtnPlus">+</button> <button id="teleBtnMinus">-</button></li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Craftsmanship</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCraft">0</span>  </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Loremaster</span> <span class="counterWindow TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLore">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Telekinesis</span> <span><span class="counterWindow TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTele">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnMinus">-</button></li>
 
-						<li> <span class="listAlign setListHead">Nasty deeds</span> <span class="counterWindow" id="counterTotalNasty">0</span>  </li>
-						<li> <span class="listAlign">Sneaking</span> <span><span class="counterWindow TotalNasty" id="counterSneak">0</span><button id="sneakBtnPlus">+</button> <button id="sneakBtnMinus">-</button></li>
-						<li> <span class="listAlign">Thievery</span> <span><span class="counterWindow TotalNasty" id="counterThievery">0</span><button id="thieveryBtnPlus">+</button> <button id="thieveryBtnMinus">-</button></li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Nasty deeds</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalNasty">0</span>  </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Sneaking</span> <span><span class="counterWindow TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSneak">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Thievery</span> <span><span class="counterWindow TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterThievery">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnMinus">-</button></li>
 
-						<li> <span class="listAlign setListHead">Total points</span> <span class="counterWindow" id="counterTotalCivilSkills">0</span> </li>
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class="counterWindow resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCivilSkills">0</span> </li>
 						
 					</ul>
 				</div>
@@ -102,44 +102,44 @@
 			
 		</div>
 
-		<div class="floatLeft col-md-2  col-lg-2 col-sm-6 columBg">
+		<div class="col-md-2 col-lg-2 col-sm-5 col-xs-5 columBg marginTopBot">
 			<h3 class="setCenter">Talents</h3>
-			<p class="setCenter">(click on talent to choose it)</p>
-			<div class="floatLeft">
+			<p class="setCenter">(click to choose)</p>
+			<div>
 
 				<div>
-					<ul class="talentList">
-						<li> <span class="listAlign talent" id="allSkilledUpTalent">All Skilled Up</span>  </li>
-						<li> <span class="listAlign talent" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
-						<li> <span class="listAlign talent" id="backStabberTalent">Back-Stabber</span>  </li>
-						<li> <span class="listAlign talent" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
-						<li> <span class="listAlign talent" id="comebackKidTalent">Comeback Kid</span>  </li>
-						<li> <span class="listAlign talent incompatible iceKingTalent" id="demonTalent">Demon</span>  </li>
-						<li> <span class="listAlign talent" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
-						<li> <span class="listAlign talent" id="escapistTalent">Escapist</span>  </li>
-						<li> <span class="listAlign talent" id="farOutManTalent">Far out man</span> </li>
-						<li> <span class="listAlign talent" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
-						<li> <span class="listAlign talent incompatible oneManArmyTalent" id="glassCanonTalent">Glass canon</span>  </li>
-						<li> <span class="listAlign talent" id="guerillaTalent">Guerilla</span>  </li>
-						<li> <span class="listAlign talent" id="hotheadTalent">Hothead</span>  </li>
-						<li> <span class="listAlign talent incompatible demonTalent" id="iceKingTalent">Ice King</span>  </li>
-						<li> <span class="listAlign talent incompatible zombieTalent" id="leechTalent">Leech</span>  </li>
-						<li> <span class="listAlign talent" id="morningPersonTalent">Morning Person</span>  </li>
-						<li> <span class="listAlign talent" id="opportunistTalent">Opportunist</span>  </li>
-						<li> <span class="listAlign talent" id="parryMasterTalent">Parry Master</span>  </li>
-						<li> <span class="listAlign talent" id="petPalTalent">Pet Pal</span>  </li>
-						<li> <span class="listAlign talent" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
-						<li> <span class="listAlign talent" id="slingshotTalent">Slingshot</span>  </li>
-						<li> <span class="listAlign talent" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
-						<li> <span class="listAlign talent" id="walkItOffTalent">Walk It Off</span>  </li>
-						<li> <span class="listAlign talent" id="whatARushTalent">What A Rush</span>  </li>
-						<li> <span class="listAlign talent incompatible leechTalent" id="zombieTalent">Zombie</span>  </li>
-						<li> <span class="listAlign talent" id="mnemonicTalent">Mnemonic</span>  </li>
-						<li> <span class="listAlign talent" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
-						<li> <span class="listAlign talent" id="elementalRangerTalent">Elemental Ranger</span>  </li>
-						<li> <span class="listAlign talent incompatible glassCanonTalent" id="oneManArmyTalent">One Man Army</span>  </li>
-						<li> <span class="listAlign talent" id="thePawnTalent">The Pawn</span>  </li>
-						<li> <span class="listAlign talent" id="warlordTalent">Warlord</span>  </li>				
+					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="allSkilledUpTalent">All Skilled Up</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="backStabberTalent">Back-Stabber</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="comebackKidTalent">Comeback Kid</span>  </li>
+						<li> <span class="padNull talent incompatible iceKingTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demonTalent">Demon</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="escapistTalent">Escapist</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="farOutManTalent">Far out man</span> </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
+						<li> <span class="padNull talent incompatible oneManArmyTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="glassCanonTalent">Glass canon</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="guerillaTalent">Guerilla</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="hotheadTalent">Hothead</span>  </li>
+						<li> <span class="padNull talent incompatible demonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="iceKingTalent">Ice King</span>  </li>
+						<li> <span class="padNull talent incompatible zombieTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="leechTalent">Leech</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="morningPersonTalent">Morning Person</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="opportunistTalent">Opportunist</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="parryMasterTalent">Parry Master</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="petPalTalent">Pet Pal</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="slingshotTalent">Slingshot</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="walkItOffTalent">Walk It Off</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="whatARushTalent">What A Rush</span>  </li>
+						<li> <span class="padNull talent incompatible leechTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="zombieTalent">Zombie</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="mnemonicTalent">Mnemonic</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="elementalRangerTalent">Elemental Ranger</span>  </li>
+						<li> <span class="padNull talent incompatible glassCanonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="oneManArmyTalent">One Man Army</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="thePawnTalent">The Pawn</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="warlordTalent">Warlord</span>  </li>				
 					</ul>
 				</div>
 			</div>

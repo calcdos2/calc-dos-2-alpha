@@ -22,12 +22,19 @@ var setId= "#counter"+rdyElementId
 
 }
 
+
+console.log(elementId)
+if (elementId == "resetAll"){ 
+
+	resetAll ()
+}
+else {
 idSearch (elementId , setId)
 
 toggleTalentsColor (elementId)
 sumCombatSKills()
 sumCivilSkills ()
-
+}
 
 return 
 
@@ -155,7 +162,7 @@ function sumCivilSkills (){
 		return
 }
 
-function toggleTalentsColor (elementId){
+function toggleTalentsColor (elementId, talentId){
 	var talentId= "#"+elementId 
 	if ($(talentId).hasClass("talent")){
 		$(talentId).toggleClass("setActive")
@@ -181,3 +188,22 @@ function classCheck (elementId, talentId){
 	return
 }
 
+function resetAll (){
+	var attrDefaultValue = 10;
+	var skillsDefaultValue = 0;
+if ($(".resetClass").hasClass("attributeResetClass")){
+	$(".attributeResetClass").text(attrDefaultValue)
+}
+if ($(".resetClass").hasClass("skillsResetClass")){
+	$(".skillsResetClass").text(skillsDefaultValue)
+}
+if ($(".resetClass").hasClass("talentResetClass")){
+	$(".talentResetClass").removeClass("setActive")
+	$(".talentResetClass").removeClass("setIncompatible")
+
+}
+
+
+
+	return
+}
