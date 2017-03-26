@@ -1,7 +1,7 @@
 
 
 
-$("body").click (function getElemetId(){
+$("body").click (function getElemetId(event){
 var elementId = event.target.id
 var splitElementId = elementId.split("")
 var filterElementId= []
