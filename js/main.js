@@ -22,8 +22,6 @@ var setId= "#counter"+rdyElementId
 
 }
 
-
-console.log(elementId)
 if (elementId == "resetAll"){ 
 
 	resetAll ()
@@ -39,9 +37,6 @@ sumCivilSkills ()
 return 
 
 })
-
-
-
 
  function btnPlus(setId){
 	var count = parseInt($(setId).text()); 
@@ -202,8 +197,6 @@ if ($(".resetClass").hasClass("talentResetClass")){
 	$(".talentResetClass").removeClass("setIncompatible")
 
 }
-
-
 
 	return
 }

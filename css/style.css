@@ -72,6 +72,12 @@ padding-right: 0;
 
 .marginTopBot{
 	margin-top: 15px;
-	margin-bottom: 15;
+	margin-bottom: 15px;
 }
 
+.setLeft {
+	text-align: left;
+}
+.setRight {
+	text-align: right;
+}
