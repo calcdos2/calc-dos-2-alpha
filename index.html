@@ -5,16 +5,18 @@
 	<title>DOS2 character calculator</title>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
 
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body class="mainBg">
 
+
+
 <div class="container">
 	<div class="row ">
 	<div>
-	<h1 class="setCenter columBg col-md-12 col-lg-12 col-sm-12 col-xs-12">Divinity original sin 2 Character Calculator</h1>
+	<h1 class="setCenter col-md-12 col-lg-12 col-sm-12 col-xs-12">Divinity original sin 2 Character Calculator</h1>
 	</div>
 		<div>
 		<div class=" col-md-3 col-lg-3 col-sm-5 col-xs-5 columBg marginTopBot">
@@ -23,14 +25,14 @@
 
 				<div >
 					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Strength</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterStr">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnMinus">-</button> </li>
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Finesse</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterFin">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnMinus">-</button></li>
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Intelligence</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterInt">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnMinus">-</button></li>
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Constitution</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterCon">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnMinus">-</button></li>
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Memory</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterMem">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnMinus">-</button></li>
-						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4">Wits</span> <span><span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterWit">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Str">Strength</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterStr">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="strBtnMinus">-</button> </li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Fin">Finesse</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterFin">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="finBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Int">Intelligence</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterInt">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="intBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Con">Constitution</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterCon">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="conBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Mem">Memory</span> <span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterMem">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="memBtnMinus">-</button></li>
+						<li> <span class="listAlign col-md-4 col-lg-4 col-sm-4 col-xs-4 tooltiptest" id="Wit">Wits</span> <span><span class="  attribute TotalAttr resetClass attributeResetClass col-md-3 col-lg-3 col-sm-3 col-xs-3" id="counterWit">10</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="witBtnMinus">-</button></li>
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class=" attribute skillsResetClass col-md-3 totalCounter setBold col-lg-3 col-sm-3 col-xs-3" id="counterTotalAttr">0</span> </li>
-						
+						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7">Level needed</span> <span class="skillsResetClass col-md-3 setBold col-lg-3 col-sm-3 col-xs-3" id="counterLevel">0</span> </li>
 					</ul>
 					<button id="resetAll">Reset calculator</button>
 				</div>
@@ -45,28 +47,28 @@
 				<div>
 					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Weapons</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalWep">0</span>  </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Dual wield</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterDw">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnMinus">-</button> </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Ranged</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterRan">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Single hand</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Two hand</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Dw">Dual Wield</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterDw">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="dwBtnMinus">-</button> </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Ran">Ranged</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterRan">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="ranBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Sh">Single-Handed</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="shBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Th">Two-Handed</span> <span class=" TotalWep resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTh">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thBtnMinus">-</button></li>
 
 
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Defence</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalDef">0</span>  </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Leadership</span> <span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLead">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Perseverance</span> <span><span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPers">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Pain reflection</span> <span><span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPref">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Lead">Leadership</span> <span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLead">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="leadBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Pers">Perseverance</span> <span><span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPers">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Pref">Retribution</span> <span><span class=" TotalDef resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPref">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="prefBtnMinus">-</button></li>
 
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Skills</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalSkills">0</span>  </li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Aerotheurge</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterAero">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Geomancer</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterGeo">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Huntsman</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHunt">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Hydrosophist</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHydro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Necromancer</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterNecr">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Polymorph</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPoly">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="polyBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="polyBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Pyrokinetic</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPyro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Scoundrel</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSco">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Summoning</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSummon">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="summonBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="summonBtnMinus">-</button></li>
-						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull">Warfare</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterWar">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Aero">Aerotheurge</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterAero">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="aeroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Geo">Geomancer</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterGeo">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="geoBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Hunt">Huntsman</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHunt">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="huntBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Hydro">Hydrosophist</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterHydro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="hydroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Necr">Necromancer</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterNecr">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="necrBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Poly">Polymorph</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPoly">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="polyBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="polyBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Pyro">Pyrokinetic</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPyro">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="pyroBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Sco">Scoundrel</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSco">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="scoBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Summon">Summoning</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSummon">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="summonBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="summonBtnMinus">-</button></li>
+						<li> <span class=" col-md-5  col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="War">Warfare</span> <span><span class=" TotalSkills resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterWar">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="warBtnMinus">-</button></li>
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCombatSkills">0</span> </li>
 						
 					</ul>
@@ -82,18 +84,18 @@
 				<div>
 					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Personality</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalPers">0</span>  </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Bartering</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterBart">0</span><button class="col-md-2 col-lg-2  col-sm-2 col-xs-2" id="bartBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="bartBtnMinus">-</button> </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Lucky Charm</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLuck">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Persuasion</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPersuasion">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Bart">Bartering</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterBart">0</span><button class="col-md-2 col-lg-2  col-sm-2 col-xs-2" id="bartBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="bartBtnMinus">-</button> </li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Luck">Lucky Charm</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLuck">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="luckBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Persuasion">Persuasion</span> <span class=" TotalPers resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterPersuasion">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="persuasionBtnMinus">-</button></li>
 
 
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Craftsmanship</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCraft">0</span>  </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Loremaster</span> <span class=" TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLore">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Telekinesis</span> <span><span class=" TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTele">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Lore">Loremaster</span> <span class=" TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterLore">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="loreBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Tele">Telekinesis</span> <span><span class=" TotalCraft resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterTele">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="teleBtnMinus">-</button></li>
 
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Nasty deeds</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalNasty">0</span>  </li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Sneaking</span> <span><span class=" TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSneak">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnMinus">-</button></li>
-						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull">Thievery</span> <span><span class=" TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterThievery">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Sneak">Sneaking</span> <span><span class=" TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterSneak">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="sneakBtnMinus">-</button></li>
+						<li> <span class=" col-md-5 col-lg-5 col-sm-5 col-xs-5 padNull tooltiptest" id="Thievery">Thievery</span> <span><span class=" TotalNasty resetClass skillsResetClass col-md-1 col-lg-1 col-sm-1 col-xs-1 listAlign" id="counterThievery">0</span><button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnPlus">+</button> <button class="col-md-2 col-lg-2 col-sm-2 col-xs-2" id="thieveryBtnMinus">-</button></li>
 
 						<li> <span class="listAlign setBold col-md-7 col-lg-7 col-sm-7 col-xs-7 totalCounter">Total points</span> <span class=" resetClass skillsResetClass setBold col-md-3 col-lg-3 col-sm-3 col-xs-3 totalCounter" id="counterTotalCivilSkills">0</span> </li>
 						
@@ -110,47 +112,47 @@
 
 				<div>
 					<ul class="col-md-12 col-lg-12 col-sm-12 col-xs-12 padNull">
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="allSkilledUpTalent">All Skilled Up</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="backStabberTalent">Back-Stabber</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="comebackKidTalent">Comeback Kid</span>  </li>
-						<li> <span class="padNull talent incompatible iceKingTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demonTalent">Demon</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="escapistTalent">Escapist</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="farOutManTalent">Far out man</span> </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
-						<li> <span class="padNull talent incompatible oneManArmyTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="glassCanonTalent">Glass canon</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="guerillaTalent">Guerilla</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="hotheadTalent">Hothead</span>  </li>
-						<li> <span class="padNull talent incompatible demonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="iceKingTalent">Ice King</span>  </li>
-						<li> <span class="padNull talent incompatible zombieTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="leechTalent">Leech</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="morningPersonTalent">Morning Person</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="opportunistTalent">Opportunist</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="parryMasterTalent">Parry Master</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="petPalTalent">Pet Pal</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="slingshotTalent">Slingshot</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="walkItOffTalent">Walk It Off</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="whatARushTalent">What A Rush</span>  </li>
-						<li> <span class="padNull talent incompatible leechTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="zombieTalent">Zombie</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="mnemonicTalent">Mnemonic</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="elementalRangerTalent">Elemental Ranger</span>  </li>
-						<li> <span class="padNull talent incompatible glassCanonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="oneManArmyTalent">One Man Army</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="thePawnTalent">The Pawn</span>  </li>
-						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12" id="warlordTalent">Warlord</span>  </li>				
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="allSkilledUpTalent">All Skilled Up</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="arrowRecoveryTalent">Arrow Recovery</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="backStabberTalent">Back-Stabber</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="biggerAndBetterTalent">Bigger and Better</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="comebackKidTalent">Comeback Kid</span>  </li>
+						<li> <span class="padNull talent incompatible iceKingTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="demonTalent">Demon</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="elementalAffinityTalent">Elemental Affinity</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="escapistTalent">Escapist</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="farOutManTalent">Far out man</span> </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="fiveStarDinerTalent">Five - Star Diner</span>  </li>
+						<li> <span class="padNull talent incompatible oneManArmyTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="glassCanonTalent">Glass canon</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="guerillaTalent">Guerilla</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="hotheadTalent">Hothead</span>  </li>
+						<li> <span class="padNull talent incompatible demonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="iceKingTalent">Ice King</span>  </li>
+						<li> <span class="padNull talent incompatible zombieTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="leechTalent">Leech</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="morningPersonTalent">Morning Person</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="opportunistTalent">Opportunist</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="parryMasterTalent">Parry Master</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="petPalTalent">Pet Pal</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="pictureOfHealthTalent">Picture Of Health</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="slingshotTalent">Slingshot</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="savageSortilegeTalent">Savage Sortilege</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="walkItOffTalent">Walk It Off</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="whatARushTalent">What A Rush</span>  </li>
+						<li> <span class="padNull talent incompatible leechTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="zombieTalent">Zombie</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="mnemonicTalent">Mnemonic</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="duckDuckGooseTalent">Duck Duck Goose</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="elementalRangerTalent">Elemental Ranger</span>  </li>
+						<li> <span class="padNull talent incompatible glassCanonTalent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="oneManArmyTalent">One Man Army</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="thePawnTalent">The Pawn</span>  </li>
+						<li> <span class="padNull talent resetClass talentResetClass col-md-12 col-lg-12 col-sm-12 col-xs-12 tooltiptest" id="warlordTalent">Warlord</span>  </li>				
 					</ul>
 				</div>
 			</div>
 			
 		</div>
-		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 columBg">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 			<h5>
 			<p class="col-md-6 col-lg-6 col-sm-6 col-xs-6 setLeft">Created by Nikshes. This site is not affiliated with Larian Studios.</p>  
 			<p class="col-md-6 col-lg-6 col-sm-6 col-xs-6 setRight">
-				Divinity original sin 2: <a href="http://larian.com/forums/ubbthreads.php?ubb=showflat&Number=601280#Post601280" target="_blank">v3.0.50.423</a>
+				Divinity original sin 2: <a href="http://larian.com/forums/ubbthreads.php?ubb=showflat&Number=601542#Post601542" target="_blank">v3.0.50.425</a>
 			</p>  
 			</h5>
 
@@ -159,10 +161,10 @@
 </div>
 
 
-
-
 </body>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/db.json"></script>
 </html>

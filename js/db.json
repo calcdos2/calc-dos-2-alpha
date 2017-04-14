@@ -1,0 +1,490 @@
+data = `{"Str":{
+	"idname":"Str",
+	"value1":"5",
+	"value2":"2",
+	"desc1":"Damage",
+	"desc2":"Physical Armor",
+	"descMain":"Strength increases damage dealt with strength-based weapons and skills, and also increases physical armor."
+	},
+	"Fin":{
+	"idname":"Fin",
+	"value1":"5",
+	"value2":"1",
+	"desc1":"Damage",
+	"desc2":"Dodge Chance",
+	"descMain":"Finesse increases damage dealt with finesse-based weapons and skills, and also increases dodge chance."
+	},
+	"Int":{
+	"idname":"Int",
+	"value1":"5",
+	"value2":"2",
+	"desc1":"Damage",
+	"desc2":"Magic Armor",
+	"descMain":"Intelligence increases damage dealt with intelligence-based weapons and skills, and also increases magic armor."
+	},
+	"Con":{
+	"idname":"Con",
+	"value1":"7",
+	"value2":"",
+	"desc1":"Vitality",
+	"desc2":"",
+	"descMain":"Constitution determines how much Vitality you have."
+	},
+	"Mem":{
+	"idname":"Mem",
+	"value1":"1",
+	"value2":"",
+	"desc1":"Memory Slot",
+	"desc2":"",
+	"descMain":"Memory affects your amount of Memory Slots, which are required to learn skills. More powerful skills cost more Memory Slots."
+	},
+	"Wit":{
+	"idname":"Wit",
+	"value1":"1",
+	"value2":"1",
+	"desc1":"Critical Chance",
+	"desc2":"Initiative",
+	"descMain":"Wits affects your Critical Chance, Initiative, and ability to detect traps and find hidden treasures."
+	},
+	"Dw":{
+	"idname":"Dw",
+	"value1":"5",
+	"value2":"1",
+	"desc1":"Damage",
+	"desc2":"Dodge Chance",
+	"descMain":"Duel Wielding increases damage and critical chance when dual-wielding one-handed weapons."
+	},
+	"Ran":{
+	"idname":"Ran",
+	"value1":"5",
+	"value2":"1",
+	"desc1":"Damage",
+	"desc2":"Critical Chance",
+	"descMain":"Ranged increase damage and accuracy with bows and crossbows."
+	},
+	"Sh":{
+	"idname":"Sh",
+	"value1":"5",
+	"value2":"2",
+	"desc1":"Damage",
+	"desc2":"Accuracy",
+	"descMain":"Single-handed increase damage with a one-handed weapon (dagger, sword, axe, mace or wand) with a shield or empty off-hand."
+	},
+	"Th":{
+	"idname":"Th",
+	"value1":"5",
+	"value2":"5",
+	"desc1":"Damage",
+	"desc2":"Critical Multiplier",
+	"descMain":"Two-Handed increase damage and critical multiplier with a two-handed melee weapon (Sword, axe, mace, spear or staff)."
+	},
+	"Lead":{
+	"idname":"Lead",
+	"value1":"1",
+	"value2":"1",
+	"desc1":"Dodging",
+	"desc2":"to all resistance",
+	"descMain":"Leadership grants Dodging and Resistance bonuses to all allies in 5m radius."
+	},
+	"Pers":{
+	"idname":"Pers",
+	"value1":"5",
+	"value2":"",
+	"desc1":"Armour restored",
+	"desc2":"",
+	"descMain":"Perseverance restores Magic Armour after you recover from Frozen and Stunned, and restores Physical Armour after Knocked Down and Petrified."
+	},
+	"Pref":{
+	"idname":"Pref",
+	"value1":"10",
+	"value2":"",
+	"desc1":"Damage reflected",
+	"desc2":"",
+	"descMain":"Retribution reflects received damage to your attacker."
+	},
+	"Aero":{
+	"idname":"Aero",
+	"value1":"10",
+	"value2":"",
+	"desc1":"Damage dealt to Magic Armor",
+	"desc2":"",
+	"descMain":"Aerotheurge increase all damage you deal to Magic Armour."
+	},
+	"Geo":{
+	"idname":"Geo",
+	"value1":"5",
+	"value2":"10",
+	"desc1":"Poison Damage",
+	"desc2":"Physical Armour restored",
+	"descMain":"Geomancer increase all Physical Armour restoration and Poison damage that you cause"
+	},
+	"Hunt":{
+	"idname":"Hunt",
+	"value1":"5",
+	"value2":"",
+	"desc1":"Damage from high ground",
+	"desc2":"",
+	"descMain":"Huntsman increases all high ground damage."
+	},
+	"Hydro":{
+	"idname":"Hydro",
+	"value1":"10",
+	"value2":"10",
+	"desc1":"Vitality healed",
+	"desc2":"Magic Armour restored",
+	"descMain":"Hydrosophist increase all healing and Magic Armour restoration that you cause."
+	},
+	"Necr":{
+	"idname":"Necr",
+	"value1":"10",
+	"value2":"",
+	"desc1":"Heal",
+	"desc2":"of the damage dealt to Vitality",
+	"descMain":"Necromancer heals you every time you deal damage damage to Vitality."
+	},
+	"Poly":{
+	"idname":"Poly",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Polymorph provides 1 free Attribute Point per point invested."
+	},
+	"Pyro":{
+	"idname":"Pyro",
+	"value1":"5",
+	"value2":"",
+	"desc1":"Fire Damage",
+	"desc2":"",
+	"descMain":"Pyrokinetic increase all Fire damage you deal."
+	},
+	"Sco":{
+	"idname":"Sco",
+	"value1":"5",
+	"value2":"5",
+	"desc1":"Critical Multiplier",
+	"desc2":"Movement speed",
+	"descMain":"Scoundrel increase movement speed and boosts your Critical Modifier."
+	},
+	"Summon":{
+	"idname":"Summon",
+	"value1":"10",
+	"value2":"",
+	"desc1":"Summons start with",
+	"desc2":"increased Vitality, Damage, Magic Armour and Physical Armour",
+	"descMain":"Summoning increase Vitality, Damage, Magic Armour and Physical Armour of your summons and totems."
+	},
+	"War":{
+	"idname":"War",
+	"value1":"10",
+	"value2":"",
+	"desc1":"Damage dealt to Physical Armour",
+	"desc2":"",
+	"descMain":"Increases all damage you deal to Physical Armour."
+	},
+	"Bart":{
+	"idname":"Bart",
+	"value1":"10",
+	"value2":"10",
+	"desc1":"Traders will drop off their base price",
+	"desc2":"You can earn more profit when you sell items",
+	"descMain":"Bartering determines your haggling skills with traders."
+	},
+	"Luck":{
+	"idname":"Luck",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Lucky Charm increases your likelihood of finding extra treasure whenever loot is stashed."
+	},
+	"Persuasion":{
+	"idname":"Persuasion",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Persuasion boosts your score with +4 per point when pesuading characters in a dialog."
+	},
+	"Lore":{
+	"idname":"Lore",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Loremaster identifiles enemies and allows you to identify items. The higher, the more you can identify and the faster it goes"
+	},
+	"Tele":{
+	"idname":"Tele",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Telekinesis determines the range and weight of item you can move telepathically."
+	},
+	"Sneak":{
+	"idname":"Sneak",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Sneaking determines how well you can sneak without getting caught."
+	},
+	"Thievery":{
+	"idname":"Thievery",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Thievery improves your lockpicking and pickpocketing skills."
+	},
+	"allSkilledUpTalent":{
+	"idname":"allSkilledUpTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"All Skilled Up immedialy gives you 1 extra Combat ability point and 1 extra Civil ability point."
+	},
+	"arrowRecoveryTalent":{
+	"idname":"arrowRecoveryTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Arrow Recovery gives you 33% chance to recovery a special arrow after shooting it."
+	},
+	"backStabberTalent":{
+	"idname":"backStabberTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Allows a character to backstab with Daggers and Knives."
+	},
+	"biggerAndBetterTalent":{
+	"idname":"biggerAndBetterTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Immediately grants you 2 extra attribute points to spend."
+	},
+	"comebackKidTalent":{
+	"idname":"comebackKidTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"When an opponent lands the blow that should kill you, Comeback Kid will leave you with 1 health as long as you had more than 1 left. Incompatible with Leech."
+	},
+	"demonTalent":{
+	"idname":"demonTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"A character with Demon has an extra 15% Fire Resistance, but takes a 15% penalty to Water Resistance. In addition the maximum Fire Resistance is raised by 10. Incompatible with Ice King."
+	},
+	"elementalAffinityTalent":{
+	"idname":"elementalAffinityTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Lowers the Action Point cost of spells by 1 when standing in a surface of the same element."
+	},
+	"escapistTalent":{
+	"idname":"escapistTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Allows you to flee combat even when enemies are right next to you."
+	},
+	"farOutManTalent":{
+	"idname":"farOutManTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Increase the range of spells and scrolls by 2m."
+	},
+	"fiveStarDinerTalent":{
+	"idname":"fiveStarDinerTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Five-Star Diner doubles the effects of food."
+	},
+	"glassCanonTalent":{
+	"idname":"glassCanonTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"With Glass Cannon, you start every combat round with Maximum AP, but Magic and Physical Armour do not protect you from statuses."
+	},
+	"guerillaTalent":{
+	"idname":"guerillaTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"While sneaking, Guerilla increase attack damage by 50%."
+	},
+	"hotheadTalent":{
+	"idname":"hotheadTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"While you are at maximum Vitality, Hothead grants you an extra 10% critical chance and 20% more accuracy."
+	},
+	"iceKingTalent":{
+	"idname":"iceKingTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"A character with Ice King has an extra 15% Water Resistance, but takes a 15% penalty to Fire Resistance. In addition the maximum Water Resistance is raised by 10. Incompatible with Demon"
+	},
+	"leechTalent":{
+	"idname":"leechTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Leech heal you when standing in blood."
+	},
+	"morningPersonTalent":{
+	"idname":"morningPersonTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"When resurected, you resurrect to full health."
+	},
+	"opportunistTalent":{
+	"idname":"opportunistTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Gives you the ability to perform attacks of opportunity."
+	},
+	"parryMasterTalent":{
+	"idname":"parryMasterTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Grants 10% Dodging while dual wielding."
+	},
+	"petPalTalent":{
+	"idname":"petPalTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Enables you to talk to animals."
+	},
+	"pictureOfHealthTalent":{
+	"idname":"pictureOfHealthTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Gives you extra Vitality: +3% for every point in Warfare."
+	},
+	"slingshotTalent":{
+	"idname":"slingshotTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Adds an extra 5m range to your grenade throws."
+	},
+	"savageSortilegeTalent":{
+	"idname":"savageSortilegeTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Gives all magical skills a critical chance equal to 50% of your critical chance score."
+	},
+	"walkItOffTalent":{
+	"idname":"walkItOffTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Reduces all status durations by 1 turn. This also affects positive statuses."
+	},
+	"whatARushTalent":{
+	"idname":"whatARushTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"What A Rush increases your recovery and maximum Action Points by 1 when your health is below 30%."
+	},
+	"zombieTalent":{
+	"idname":"zombieTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Lets you heal from poison, but regular healing will damage you instead."
+	},
+	"mnemonicTalent":{
+	"idname":"mnemonicTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Mnemonic gives you 3 extra points in your Memory attribute."
+	},
+	"duckDuckGooseTalent":{
+	"idname":"duckDuckGooseTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Lets you evade attacks of opportunity."
+	},
+	"elementalRangerTalent":{
+	"idname":"elementalRangerTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Arrows inflict bonus elemental damage depending on the surface your target is standing in"
+	},
+	"oneManArmyTalent":{
+	"idname":"oneManArmyTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"A character with One Man Army receives a scaling bonus to witality and depending on the number of active player characters. Incompatible with Glass Cannon."
+	},
+	"thePawnTalent":{
+	"idname":"thePawnTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Permits your character 1 AP worth of free movement at the start of their turn."
+	},
+	"warlordTalent":{
+	"idname":"warlordTalent",
+	"value1":"",
+	"value2":"",
+	"desc1":"",
+	"desc2":"",
+	"descMain":"Gives you 2 extra Action Points after dealing a killing blow."
+	}
+	
+}`;
